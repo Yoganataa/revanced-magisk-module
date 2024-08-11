@@ -119,8 +119,8 @@ jobs:
         run: |
           cd ${{ steps.build_modules.outputs.build_path }} || { echo "build folder not found"; exit 1; }
 
-          TG_CHAT="-1002017431960"
-          THREAD_ID=20863
+          TG_CHAT="-1002041706075"
+          THREAD_ID=1459
           NL=$'\n'
           APKS=""
           MODULES=""
